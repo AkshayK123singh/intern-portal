@@ -1,0 +1,140 @@
+/* /client/src/pages/Profile.css */
+.profile-page {
+    padding: 0;
+}
+
+.profile-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.profile-card {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-card .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.profile-details h3 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.profile-details p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-stats-card {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+}
+
+.profile-stats-card h3 {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.stats-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.stat-item {
+    background-color: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.stat-item i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.stat-item h4 {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+}
+
+.stat-item p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.tasks-projects-section {
+    grid-column: 1 / -1; /* spans the full width below the profile card and stats */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.assigned-tasks-card, .assigned-projects-card {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+}
+
+.assigned-tasks-card h3, .assigned-projects-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.task-list-profile, .project-list-profile {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list-profile li, .project-list-profile li {
+    background-color: #2a2a2a;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.task-list-profile li.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.task-list-profile li i, .project-list-profile li i {
+    color: var(--secondary-color);
+}
+
+
+@media (max-width: 1024px) {
+    .profile-content {
+        grid-template-columns: 1fr;
+    }
+    .tasks-projects-section {
+        grid-template-columns: 1fr;
+    }
+}

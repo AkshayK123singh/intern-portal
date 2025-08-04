@@ -1,0 +1,57 @@
+/* /client/src/pages/Resources.css */
+.resources-page {
+    padding: 0;
+}
+
+.resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.resource-item {
+    background-color: var(--surface-color);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.resource-item:hover {
+    transform: translateY(-5px);
+}
+
+.resource-item i.fas {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-right: 1.5rem;
+}
+
+.resource-item .resource-info {
+    flex-grow: 1;
+}
+
+.resource-item .resource-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+}
+
+.resource-item .resource-info p {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.resource-type-badge {
+    background-color: var(--primary-color);
+    color: #121212;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-right: 1.5rem;
+}

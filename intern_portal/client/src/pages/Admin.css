@@ -1,0 +1,200 @@
+/* /client/src/pages/Admin.css */
+.admin-page {
+  padding: 0;
+}
+
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.add-user-form, 
+.assign-task-form,
+.manage-project-form,
+.create-project-form {
+  background-color: var(--surface-color);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+}
+
+.add-user-form h3, 
+.assign-task-form h3,
+.manage-project-form h3,
+.create-project-form h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-user-form form,
+.assign-task-form form,
+.manage-project-form form,
+.create-project-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.add-user-form input,
+.add-user-form select,
+.assign-task-form input,
+.assign-task-form select,
+.manage-project-form select,
+.create-project-form input,
+.create-project-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create-project-form textarea {
+    resize: vertical;
+}
+
+.project-actions {
+    display: flex;
+    gap: 10px;
+}
+.project-actions button {
+    flex-grow: 1;
+}
+.project-actions .assign-btn {
+    background-color: var(--secondary-color);
+}
+.project-actions .remove-btn {
+    background-color: var(--error-color);
+}
+
+.add-user-form button,
+.assign-task-form button,
+.create-project-form button {
+  width: 100%;
+}
+
+.user-list-cards h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.intern-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.intern-admin-card {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+    border-top: 5px solid var(--card-color);
+    transition: transform 0.3s ease;
+}
+
+.intern-admin-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-header-admin {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.card-header-admin .intern-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--card-color);
+}
+
+.card-header-admin h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.intern-role-badge {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.card-body-admin {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.card-body-admin p {
+    margin: 0;
+}
+
+.tasks-projects-info {
+    margin-top: 1rem;
+}
+
+.tasks-projects-info p {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.tasks-projects-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tasks-projects-info li {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.card-footer-admin {
+    display: flex;
+    gap: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+    .admin-grid {
+        grid-template-columns: 1fr;
+    }
+}
+ .create-project-form textarea {
+   resize: vertical;
+   background-color: var(--background-color); /* Use dark background color */
+   border: 1px solid #555; /* Add a subtle border for definition */
+   color: var(--text-color); /* Ensure text is readable */
+ }
+ 
+
+ /* /client/src/components/Sidebar.css */
+ /* ... other styles ... */
+ 
+
+ .sidebar-footer {
+   margin-top: auto;
+   padding: 1rem; /* Ensure enough padding at the bottom */
+   border-top: 1px solid #333;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+ }
+ 
+
+ .sidebar .theme-toggle button {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   background-color: var(--primary-color);
+   color: var(--background-color);
+   padding: 12px;
+ }

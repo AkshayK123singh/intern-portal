@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "username": "aman_sharma",
+    "email": "aman.sharma@example.com",
+    "role": "Full-Stack Intern",
+    "joinDate": "July 1, 2025",
+    "referralCode": "AMAN2025",
+    "donationsRaised": 20469,
+    "referralCount": 8,
+    "rewardsUnlocked": [
+      "Certificate of Excellence",
+      "Team Lunch",
+      "Company Merchandise"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "tasks": [
+      101,
+      102,
+      107,
+      103
+    ],
+    "projects": [
+      201,
+      204,
+      203,
+      202
+    ],
+    "taskToAssign": 102,
+    "projectToAssign": 202
+  },
+  {
+    "id": 2,
+    "username": "priya_gupta",
+    "email": "priya.gupta@example.com",
+    "role": "Frontend Intern",
+    "joinDate": "July 15, 2025",
+    "referralCode": "PRIYA2025",
+    "donationsRaised": 25136,
+    "referralCount": 15,
+    "rewardsUnlocked": [
+      "Certificate of Excellence",
+      "Company Merchandise",
+      "Top Performer Badge"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "tasks": [
+      103,
+      104
+    ],
+    "projects": [
+      201
+    ]
+  },
+  {
+    "id": 3,
+    "username": "rahul_verma",
+    "email": "rahul.verma@example.com",
+    "role": "Backend Intern",
+    "joinDate": "August 1, 2025",
+    "referralCode": "RAHUL2025",
+    "donationsRaised": 10000,
+    "referralCount": 5,
+    "rewardsUnlocked": [
+      "Certificate of Excellence"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "tasks": [
+      105,
+      106
+    ],
+    "projects": [
+      202,
+      204,
+      203
+    ],
+    "projectToAssign": 203
+  },
+  {
+    "id": 4,
+    "username": "sita_singh",
+    "email": "sita.singh@example.com",
+    "role": "UX/UI Intern",
+    "joinDate": "August 5, 2025",
+    "referralCode": "SITA2025",
+    "donationsRaised": 8000,
+    "referralCount": 3,
+    "rewardsUnlocked": [],
+    "profilePicture": "https://randomuser.me/api/portraits/women/4.jpg",
+    "tasks": [
+      107
+    ],
+    "projects": [
+      203
+    ]
+  },
+  {
+    "id": 5,
+    "username": "vijay_kumar",
+    "email": "vijay.kumar@example.com",
+    "role": "Data Science Intern",
+    "joinDate": "June 20, 2025",
+    "referralCode": "VIJAY2025",
+    "donationsRaised": 35000,
+    "referralCount": 20,
+    "rewardsUnlocked": [
+      "Certificate of Excellence",
+      "Company Merchandise",
+      "Top Performer Badge",
+      "Leadership Award"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "tasks": [
+      108,
+      113
+    ],
+    "projects": [
+      204
+    ],
+    "taskToAssign": "113"
+  },
+  {
+    "id": 6,
+    "username": "meera_das",
+    "email": "meera.das@example.com",
+    "role": "Frontend Intern",
+    "joinDate": "July 1, 2025",
+    "referralCode": "MEERA2025",
+    "donationsRaised": 28000,
+    "referralCount": 18,
+    "rewardsUnlocked": [
+      "Certificate of Excellence",
+      "Company Merchandise",
+      "Top Performer Badge"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "tasks": [
+      109
+    ],
+    "projects": [
+      201
+    ]
+  },
+  {
+    "id": 7,
+    "username": "alok_patel",
+    "email": "alok.patel@example.com",
+    "role": "Backend Intern",
+    "joinDate": "July 25, 2025",
+    "referralCode": "ALOK2025",
+    "donationsRaised": 12000,
+    "referralCount": 6,
+    "rewardsUnlocked": [
+      "Certificate of Excellence"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "tasks": [
+      110,
+      111
+    ],
+    "projects": [
+      202
+    ]
+  },
+  {
+    "id": 8,
+    "username": "isha_jain",
+    "email": "isha.jain@example.com",
+    "role": "Marketing Intern",
+    "joinDate": "August 10, 2025",
+    "referralCode": "ISHA2025",
+    "donationsRaised": 5000,
+    "referralCount": 2,
+    "rewardsUnlocked": [
+      "Certificate of Excellence"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/women/8.jpg",
+    "tasks": [
+      112
+    ],
+    "projects": [
+      203
+    ],
+    "taskToAssign": "112",
+    "projectToRemove": "203",
+    "projectToAssign": "203"
+  },
+  {
+    "id": 9,
+    "username": "rohan_gupta",
+    "email": "rohan.gupta@example.com",
+    "role": "Data Science Intern",
+    "joinDate": "June 15, 2025",
+    "referralCode": "ROHAN2025",
+    "donationsRaised": 32000,
+    "referralCount": 19,
+    "rewardsUnlocked": [
+      "Certificate of Excellence",
+      "Company Merchandise",
+      "Top Performer Badge"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "tasks": [
+      113
+    ],
+    "projects": [
+      204
+    ]
+  },
+  {
+    "id": 10,
+    "username": "pooja_shah",
+    "email": "pooja.shah@example.com",
+    "role": "UX/UI Intern",
+    "joinDate": "July 1, 2025",
+    "referralCode": "POOJA2025",
+    "donationsRaised": 20000,
+    "referralCount": 10,
+    "rewardsUnlocked": [
+      "Certificate of Excellence",
+      "Company Merchandise"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/women/10.jpg",
+    "tasks": [
+      114
+    ],
+    "projects": [
+      201
+    ]
+  },
+  {
+    "id": 11,
+    "username": "Akshay_kumar",
+    "role": "ML Intern",
+    "email": "akshay_kumar@example.com",
+    "joinDate": "August 2, 2025",
+    "referralCode": "AKSH2025",
+    "donationsRaised": 20000,
+    "referralCount": 0,
+    "rewardsUnlocked": [
+      "Certificate of Excellence",
+      "Company Merchandise"
+    ],
+    "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "tasks": [
+      105
+    ],
+    "projects": [
+      201
+    ],
+    "taskToAssign": "105",
+    "projectToAssign": "201"
+  }
+]

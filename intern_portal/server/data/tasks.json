@@ -1,0 +1,86 @@
+[
+  {
+    "id": 101,
+    "title": "Complete project proposal",
+    "deadline": "2025-08-10",
+    "completed": true
+  },
+  {
+    "id": 102,
+    "title": "Attend team meeting",
+    "deadline": "2025-08-05",
+    "completed": false
+  },
+  {
+    "id": 103,
+    "title": "Review UI/UX designs for new pages",
+    "deadline": "2025-08-07",
+    "completed": false
+  },
+  {
+    "id": 104,
+    "title": "Implement new component library",
+    "deadline": "2025-08-12",
+    "completed": false
+  },
+  {
+    "id": 105,
+    "title": "Create new API endpoints for tasks",
+    "deadline": "2025-08-11",
+    "completed": false
+  },
+  {
+    "id": 106,
+    "title": "Optimize database queries",
+    "deadline": "2025-08-09",
+    "completed": true
+  },
+  {
+    "id": 107,
+    "title": "Design new dashboard components",
+    "deadline": "2025-08-15",
+    "completed": false
+  },
+  {
+    "id": 108,
+    "title": "Analyze user engagement data",
+    "deadline": "2025-08-08",
+    "completed": false
+  },
+  {
+    "id": 109,
+    "title": "Write a blog post about internship experience",
+    "deadline": "2025-08-18",
+    "completed": false
+  },
+  {
+    "id": 110,
+    "title": "Refactor backend code for scalability",
+    "deadline": "2025-08-20",
+    "completed": false
+  },
+  {
+    "id": 111,
+    "title": "Set up CI/CD pipeline",
+    "deadline": "2025-08-25",
+    "completed": true
+  },
+  {
+    "id": 112,
+    "title": "Create social media content plan",
+    "deadline": "2025-08-12",
+    "completed": false
+  },
+  {
+    "id": 113,
+    "title": "Build a machine learning model",
+    "deadline": "2025-09-01",
+    "completed": false
+  },
+  {
+    "id": 114,
+    "title": "Conduct user research for new features",
+    "deadline": "2025-08-22",
+    "completed": false
+  }
+]
