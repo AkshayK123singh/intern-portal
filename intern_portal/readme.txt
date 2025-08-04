@@ -6,7 +6,7 @@ Installation Steps
 Clone the repository:
 
 
----->git clone <your_repository_url>   or download the code directly from the repository 
+---->git clone <https://github.com/AkshayK123singh/intern-portal>   or download the code directly from the repository 
 Navigate to the project folder:
 
 
@@ -35,6 +35,7 @@ Start the Frontend Application
 Open a second terminal, navigate to the /intern_portal/client directory, and run:
 ----->npm start
 The application will automatically open in your browser at http://localhost:3000.
+
 
 
 If you encounter a blank page, ensure both the backend and frontend are running simultaneously in separate terminal windows.
